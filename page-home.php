@@ -1,5 +1,4 @@
 <?php
-/* Template name: Home */
-get_header();
-?>
-<?php get_footer(); ?>
+  /* Template name: Home */
+  include 'ui/paginas/home/home.php';
+ ?>

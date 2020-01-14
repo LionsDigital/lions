@@ -1,0 +1,14 @@
+.header{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 20px;
+  grid-gap: 20px;
+  justify-items: center;
+  position: absolute;
+  width: calc( 100% - 40px);
+  z-index: 1;
+  .logo{
+    grid-column: 1/4;
+    height: 100px;
+  }
+}
